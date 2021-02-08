@@ -1,0 +1,8 @@
+numpy>=1.17.2
+pyyaml>=5.1.2
+tensorflow>=2.0
+tensorflow_probability
+tensorflow-datasets>=1.2.0
+tqdm>=4.36.1
+scipy
+sklearn
