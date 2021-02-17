@@ -2,7 +2,7 @@ import tensorflow as tf
 import tensorflow_probability as tfp
 from tqdm.notebook import tqdm
 
-from mixmatch import (ema, interleave, linear_rampup, mixmatch, semi_loss,
+from scripts.mixmatch import (ema, interleave, linear_rampup, mixmatch, semi_loss,
                       weight_decay)
 
 
