@@ -1,5 +1,6 @@
 .venv
 .vscode
 .logs
+__pycache__
 
-*.ipynb
+test*
