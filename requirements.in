@@ -6,3 +6,4 @@ tensorflow-datasets>=1.2.0
 tqdm>=4.36.1
 scipy
 sklearn
+notebook
