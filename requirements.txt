@@ -6,12 +6,12 @@
 #
 absl-py==0.10.0
     # via
-    #   tensorboard
-    #   tensorflow
+    #   tb-nightly
     #   tensorflow-datasets
     #   tensorflow-metadata
+    #   tf-nightly
 astunparse==1.6.3
-    # via tensorflow
+    # via tf-nightly
 attrs==20.3.0
     # via tensorflow-datasets
 cachetools==4.2.1
@@ -29,39 +29,39 @@ dill==0.3.3
 dm-tree==0.1.5
     # via tensorflow-probability
 flatbuffers==1.12
-    # via tensorflow
+    # via tf-nightly
 future==0.18.2
     # via tensorflow-datasets
-gast==0.3.3
+gast==0.4.0
     # via
-    #   tensorflow
     #   tensorflow-probability
+    #   tf-nightly
 google-auth-oauthlib==0.4.2
-    # via tensorboard
-google-auth==1.24.0
+    # via tb-nightly
+google-auth==1.26.1
     # via
     #   google-auth-oauthlib
-    #   tensorboard
+    #   tb-nightly
 google-pasta==0.2.0
-    # via tensorflow
+    # via tf-nightly
 googleapis-common-protos==1.52.0
     # via tensorflow-metadata
-grpcio==1.32.0
+grpcio==1.34.1
     # via
-    #   tensorboard
-    #   tensorflow
-h5py==2.10.0
-    # via tensorflow
+    #   tb-nightly
+    #   tf-nightly
+h5py==3.1.0
+    # via tf-nightly
 idna==2.10
     # via requests
 importlib-resources==5.1.0
     # via tensorflow-datasets
-joblib==1.0.0
+joblib==1.0.1
     # via scikit-learn
 keras-preprocessing==1.1.2
-    # via tensorflow
+    # via tf-nightly
 markdown==3.3.3
-    # via tensorboard
+    # via tb-nightly
 numpy==1.19.5
     # via
     #   -r requirements.in
@@ -70,23 +70,23 @@ numpy==1.19.5
     #   opt-einsum
     #   scikit-learn
     #   scipy
-    #   tensorboard
-    #   tensorflow
+    #   tb-nightly
     #   tensorflow-datasets
     #   tensorflow-probability
+    #   tf-nightly
 oauthlib==3.1.0
     # via requests-oauthlib
 opt-einsum==3.3.0
-    # via tensorflow
+    # via tf-nightly
 promise==2.3
     # via tensorflow-datasets
 protobuf==3.14.0
     # via
     #   googleapis-common-protos
-    #   tensorboard
-    #   tensorflow
+    #   tb-nightly
     #   tensorflow-datasets
     #   tensorflow-metadata
+    #   tf-nightly
 pyasn1-modules==0.2.8
     # via google-auth
 pyasn1==0.4.8
@@ -100,9 +100,9 @@ requests-oauthlib==1.3.0
 requests==2.25.1
     # via
     #   requests-oauthlib
-    #   tensorboard
+    #   tb-nightly
     #   tensorflow-datasets
-rsa==4.7
+rsa==4.7.1
     # via google-auth
 scikit-learn==0.24.1
     # via sklearn
@@ -118,53 +118,53 @@ six==1.15.0
     #   google-auth
     #   google-pasta
     #   grpcio
-    #   h5py
     #   keras-preprocessing
     #   promise
     #   protobuf
-    #   tensorboard
-    #   tensorflow
     #   tensorflow-datasets
     #   tensorflow-probability
+    #   tf-nightly
 sklearn==0.0
     # via -r requirements.in
+tb-nightly==2.5.0a20210217
+    # via tf-nightly
+tensorboard-data-server==0.3.0
+    # via tb-nightly
 tensorboard-plugin-wit==1.8.0
-    # via tensorboard
-tensorboard==2.4.1
-    # via tensorflow
+    # via tb-nightly
 tensorflow-datasets==4.2.0
     # via -r requirements.in
-tensorflow-estimator==2.4.0
-    # via tensorflow
 tensorflow-metadata==0.27.0
     # via tensorflow-datasets
 tensorflow-probability==0.12.1
     # via -r requirements.in
-tensorflow==2.4.1
-    # via -r requirements.in
 termcolor==1.1.0
     # via
-    #   tensorflow
     #   tensorflow-datasets
+    #   tf-nightly
+tf-estimator-nightly==2.5.0.dev2021021701
+    # via tf-nightly
+tf-nightly==2.5.0.dev20210217
+    # via -r requirements.in
 threadpoolctl==2.1.0
     # via scikit-learn
-tqdm==4.56.0
+tqdm==4.56.2
     # via
     #   -r requirements.in
     #   tensorflow-datasets
 typing-extensions==3.7.4.3
-    # via tensorflow
+    # via tf-nightly
 urllib3==1.26.3
     # via requests
 werkzeug==1.0.1
-    # via tensorboard
+    # via tb-nightly
 wheel==0.36.2
     # via
     #   astunparse
-    #   tensorboard
-    #   tensorflow
+    #   tb-nightly
+    #   tf-nightly
 wrapt==1.12.1
-    # via tensorflow
+    # via tf-nightly
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
